@@ -8,6 +8,4 @@
 
 # My solution
 def powers_of_two(n):
-    return [2**(i) for i in range(0,n)]
-
-print(powers_of_two(4))
+    return [2**(i) for i in range(0,n+1)]
